@@ -1,2 +1,2 @@
 FROM centos
-RUN yum update && yum install nano wget initscripts redhat-lsb-core -y
+RUN yum update && yum install -y nano wget initscripts redhat-lsb-core
